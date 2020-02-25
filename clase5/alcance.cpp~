@@ -1,0 +1,20 @@
+#include <iostream>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+
+int b=6;
+int main(){
+  int n2;
+  cin>>n2;
+
+  int por=n2%2;
+
+  if(por==0){
+    cout<<"el primer numero es par"<<endl;
+    if(n2==4){
+      cout<<"n2 es 4"<<endl;
+    }
+  }
+
+}
