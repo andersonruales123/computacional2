@@ -1,0 +1,22 @@
+#include <iostream>
+#include<iomanip>
+#include<cmath>
+using namespace std;
+
+int main(){
+  int n1,val;
+  char ch;
+
+  while(val!=1){
+
+    cout<<"Entre una letra";
+    cin>>char;
+
+    cout<<"\n"<<endl;
+
+    cout<<"Desea entrar otras letras y numero";
+    cin>>val;
+    cout<<"\n"<<endl;
+  }
+
+}
